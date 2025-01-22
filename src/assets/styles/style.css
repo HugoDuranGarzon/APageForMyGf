@@ -47,6 +47,15 @@ body{
     margin-right: 20px;
 }
 
+#excepcion{
+    font-family: "Corinthia", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* Fuente sorpresa */
 .surprise-font {
     color: white;
@@ -73,10 +82,9 @@ body{
     margin-bottom: 20px;
 }
 
-#patricia div{
-    margin: 0px;
+#patricia button{
+    margin: 20px;
 }
-
 
 
 .bocadillo{
@@ -91,3 +99,4 @@ body{
 .bocadillo p{
     color: black;
 }
+
