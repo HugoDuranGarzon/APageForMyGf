@@ -1,28 +1,31 @@
 /* Importacion de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
-/* Configuracion fondo de pantalla para movil */
-body{
-    background-image: url(https://www.fabricsandpapers.com/media/catalog/product/cache/bc51c235dc45486e94882235a0bd146b/h/e/hearts-wallpaper-pink.jpg);
-    
-}
-
-/* Configuracion fondo de pantalla para escritorio */
+/* Configuracion para escritorio */
 @media (min-width: 1024px) {
 
     body{
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
     }
+
+    
 }
 
-#container{
-    /* background-color: rgb(245, 207, 213); */
-    border-radius: 10px;
-    width: fit-content;
-    height: fit-content;
-    padding: 20px;
+/* Configuracion fondo de pantalla para movil */
+body{
+    background-image: url(https://www.fabricsandpapers.com/media/catalog/product/cache/bc51c235dc45486e94882235a0bd146b/h/e/hearts-wallpaper-pink.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+#title{
+    margin-top: 100px;
 }
 
 /* Fuente para titulos */
@@ -30,7 +33,7 @@ body{
     font-family: "Monsieur La Doulaise", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 100px;
+    font-size: 65px;
   }
 
 /* Fuente principal */
@@ -39,7 +42,52 @@ body{
     font-family: "Corinthia", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 70px;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Fuente sorpresa */
+.surprise-font {
+    color: white;
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  #patricia{
+    margin-top: 100px;
+    border: 1px solid #262626;
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    background-color: #262626;
+
+}
+
+#patricia img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#patricia div{
+    margin: 0px;
 }
 
 
+
+.bocadillo{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.bocadillo p{
+    color: black;
+}
